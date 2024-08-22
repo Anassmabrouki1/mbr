@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(200deg, rgb(132, 4, 4), #000000);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: rgb(214, 124, 124);
+    margin-top: 29px;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    position: absolute;
+    top: 16%;
+    left: -35%;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: rgb(132, 4, 4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+   
+    
+}
+
+h1 {
+    color: rgb(169, 34, 34);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 7em;
+    width: 100%;
+    position: relative;
+    top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 80%,black;
+}
+
+.background-image {
+    background: url('img/R (1).png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #33333300;
+    position: absolute;
+    top: 140px;
+    left: 75%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 3000;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(235, 140, 140);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #650303;
+    color: black;
+}
+
+/* This ensures the content doesn't overlap with the fixed navbar */
+.content {
+    padding-top: 80px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 250px; /* Adjust this value to move the search bar up or down */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%; /* Sets the width of the search container */
+    z-index: 1000; /* Ensures the search bar appears above other elements */
+background-color: #650303;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background-color: rgb(224, 171, 171);
+    width: 100%;
+    font-size: 28px;
+}
+
+.search-input {
+    font-size: 28px;
+    font-family: 'Lexend', sans-serif;
+    color: #ce7f7f;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.search .material-symbols-outlined {
+    font-size: 24px;
+    color: #d0acac;
+}
+p{
+    color: aliceblue;
+    font: optional;
+    font-family: serif;
+    font-size: 1.9em;
+    top: 380px;
+    left: 65%;
+    
+    align-items: center;
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+    transform: translateX(-50%);
+    width: 60%; /* Sets the width of the search container */
+    z-index: 1000; /* Ensures the search bar appears above other elements */
+
+}

@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(201, 181, 181);
+    margin: 20px;
+    background: linear-gradient(200deg, rgb(132, 4, 4), #000000);
+}
+
+h1 {
+    color: rgb(169, 34, 34);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 7em;
+    width: 100%;
+    position: relative;
+    top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 80%,rgb(226, 216, 216);
+}
+
+h2 {
+    color: #ddd;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 2.2em;
+    width: 100%;
+    position: relative;
+    top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 80%,rgb(226, 216, 216);
+}
+
+form {
+    background-color: #ed6b6b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 300px;
+    position: center;
+ 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f95f5f;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4d0707;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ce5252;
+    color: #ddd;
+}
+
+th {
+    background-color: #691a1a;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #bc3a3a;
+}
+
+tbody tr:hover {
+    background-color: #8c2323;  /* Change this to the red shade you prefer */
+}
+
+/* Button in the table */
+input[type="submit"][value="delet"] {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"][value="delet"]:hover {
+    background-color: #c43535;
+}
+
+/* Container for the whole page */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}

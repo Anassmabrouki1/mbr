@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(200deg, rgb(132, 4, 4), #000000);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: rgb(214, 124, 124);
+    margin-top: 29px;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    position: absolute;
+    top: 16%;
+    left: -35%;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: rgb(132, 4, 4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+   
+    
+}
+
+h1 {
+    color: rgb(169, 34, 34);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 7em;
+    width: 100%;
+    position: relative;
+    top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 80%,black;
+}
+p{
+    color: aliceblue;
+    font: optional;
+    font-family: serif;
+    font-size: 1.9em;
+    top: 200px;
+    left: 45%;
+    
+    align-items: center;
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+    transform: translateX(-50%);
+    width: 60%; /* Sets the width of the search container */
+    z-index: 1000; /* Ensures the search bar appears above other elements */
+
+}
+
+
